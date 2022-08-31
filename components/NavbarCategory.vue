@@ -1,7 +1,7 @@
 <template>
-    <div class="py-2">
+    <div class="sticky inset-0 top-0 z-50 py-2">
         <header class="">
-            <div class="flex items-center justify-between h-12 max-w-screen-xl px-4 mx-auto">
+            <div class="flex items-center justify-between max-w-screen-xl px-2 mx-auto h-9">
                 <!-- <div class="flex justify-end flex-grow w-0 lg:hidden">
                     <button class="p-2 text-gray-500 bg-gray-100 rounded-full" type="button">
                         <svg class="w-5 h-5" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -13,13 +13,13 @@
                 </div> -->
 
                 <nav
-                    class="items-center justify-between hidden space-x-6 text-sm font-medium lg:flex lg:flex-grow lg:w-0">
+                    class="items-center justify-between hidden space-x-6 text-sm font-medium bg-white lg:flex lg:flex-grow lg:w-0">
                     <!-- <a class="text-gray-900" href="">About</a>
                     <a class="text-gray-900" href="">Blog</a>
                     <a class="text-gray-900" href="">Projects</a>
                     <a class="text-gray-900" href="">Contact</a> -->
 
-                    <ul class="flex text-center border-b border-gray-200">
+                    <ul class="flex text-center bg-white border-b border-gray-200">
                         <li class="flex-grow">
                             <a class="relative block p-3 text-sm font-medium bg-white border-t border-l border-r border-gray-200"
                                 href="">
@@ -46,8 +46,8 @@
                             <a class="block p-3 text-sm font-medium text-gray-500" href=""> Category 3 </a>
                         </li>
                     </ul>
-
                 </nav>
+
 
                 <div class="items-center hidden space-x-2 lg:flex">
                     <a class="px-4 py-2 text-sm font-medium text-gray-600 bg-gray-100 rounded-lg" href="">
@@ -59,5 +59,40 @@
                 </div>
             </div>
         </header>
+        <nav
+            class="relative flex flex-wrap items-center justify-between w-full text-gray-500 bg-white hover:text-gray-700 focus:text-gray-700 navbar navbar-expand-lg navbar-light">
+            <div class="container flex flex-wrap items-center justify-between w-full px-6">
+                <div class="items-center flex-grow collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Left links -->
+                    <ul class="flex flex-col pl-0 mr-auto navbar-nav list-style-none">
+                        <li class="p-2 nav-item">
+                            <a class="p-0 text-gray-500 nav-link hover:text-gray-700 focus:text-gray-700"
+                                href="#">Sub-Category 1</a>
+                        </li>
+                        <li class="p-2 nav-item">
+                            <a class="p-0 text-gray-500 nav-link hover:text-gray-700 focus:text-gray-700"
+                                href="#">Sub-Category 2</a>
+                        </li>
+                        <li class="p-2 nav-item">
+                            <a class="p-0 text-gray-500 nav-link hover:text-gray-700 focus:text-gray-700"
+                                href="#">Sub-Category 3</a>
+                        </li>
+                        <li class="p-2 nav-item">
+                            <a class="p-0 text-gray-500 nav-link hover:text-gray-700 focus:text-gray-700"
+                                href="#">Sub-Category 4</a>
+                        </li>
+                        <li class="p-2 nav-item">
+                            <a class="p-0 text-gray-500 nav-link hover:text-gray-700 focus:text-gray-700"
+                                href="#">Sub-Category 5</a>
+                        </li>
+                        <li class="p-2 nav-item">
+                            <a class="p-0 text-gray-500 nav-link hover:text-gray-700 focus:text-gray-700"
+                                href="#">Sub-Category 6</a>
+                        </li>
+                    </ul>
+                    <!-- Left links -->
+                </div>
+            </div>
+        </nav>
     </div>
 </template>

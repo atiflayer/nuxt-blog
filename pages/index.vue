@@ -1,6 +1,5 @@
 <template>
     <div>
-
         <Article />
         <Article />
         <Article />
