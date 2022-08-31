@@ -6,7 +6,8 @@
                 placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid. Facere officiis
                 molestias ad!</h1>
         </div>
-        <img src="" alt="" class="w-full h-64 my-2 bg-orange-500">
+        <img src="https://api.lorem.space/image/album?w=600&h=300&hash=3u1cyqkv" alt=""
+            class="object-cover w-full h-64 my-2 lg:h-full">
         <div class="m-2">
             <h6 class="text-sm">Article 1. Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus natus vel adipisci
@@ -27,8 +28,9 @@
                 <h1 class="text-xs">Shares</h1>
             </div>
         </div>
-        <div class="w-full border border-gray-400">
-            <button class="p-2 px-32 m-2 text-sm font-medium rounded-sm" type="button">
+        <div>
+            <button class="w-full p-2 px-32 m-2 text-sm font-medium bg-gray-200 border border-gray-400 rounded-sm"
+                type="button">
                 999 Comments
             </button>
         </div>
