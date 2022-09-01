@@ -1,25 +1,21 @@
 <template>
     <div>
-        <NuxtLink v-for="post in postArray" :key="post.post_id" :to="`/blog/single`">
+        <NuxtLink v-for="post in postArray" :key="post.post_id" :to="`/blog/single`" class="hover:none">
             <div class="w-full my-2">
                 <div class="m-2 lg:my-4 lg:mx-2">
-                    <h1 class="font-serif text-xl font-medium"><span class="font-bold">Article 1. {{ post.posts_title
-                    }}</span> Lorem ipsum,
-                        dolor
-                        sit amet consectetur adipisicing elit. Reprehenderit voluptatibus consequatur quidem
-                        necessitatibus
-                        natus vel adipisci placeat, culpa ullam quibusdam praesentium ad accusantium velit libero
-                        aliquid.
-                        Facere officiis molestias ad!</h1>
+                    <h1 class="font-serif text-xl font-medium"><span class="font-bold">Article 1.
+                            {{ post.posts_title }}
+                        </span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatibus
+                        consequatur quidem necessitatibus natus vel adipisci placeat, culpa ullam quibusdam praesentium
+                        ad accusantium velit libero aliquid. Facere officiis molestias ad!</h1>
                 </div>
                 <img src="https://api.lorem.space/image/house?w=600&h=300&hash=0t4eyv02" alt=""
                     class="object-cover w-full h-64 my-2 lg:h-96">
                 <div class="m-2 lg:my-4 lg:mx-2">
-                    <h6 class="text-sm">Article 1. Lorem ipsum, dolor sit amet consectetur
-                        adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus natus vel
-                        adipisci
-                        placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid. Facere officiis
-                        molestias ad!</h6>
+                    <h6 class="text-sm">Article 1. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                        Reprehenderit voluptatibus consequatur quidem necessitatibus natus vel adipisci placeat, culpa
+                        ullam quibusdam praesentium ad accusantium velit libero aliquid. Facere officiis molestias ad!
+                    </h6>
                 </div>
                 <div class="flex items-center justify-between space-x-4 lg:space-x-10">
                     <!-- <div class="flex mx-2 space-x-1 lg:w-0 lg:flex-1">
@@ -95,11 +91,12 @@
                     </div>
                 </div>
 
-                <div class="justify-center">
+                <div class="flex justify-center items-center mx-auto ">
                     <button
-                        class="flex justify-center p-2 px-2 px-32 m-2 mx-2 text-sm font-medium text-center bg-gray-300 lg:my-4 lg:mx-2 lg:hidden"
+                        class="justify-center w-full p-2 px-4 m-2 mx-2 text-sm font-medium text-center bg-gray-300 lg:my-4 lg:mx-2 lg:hidden"
                         type="button">
-                        {{ post.posts_view }} Comments
+                        {{ post.posts_view }}
+                        Comments
                     </button>
                 </div>
             </div>
