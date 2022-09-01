@@ -4,7 +4,38 @@
         "posts_title": "Article 1",
         "posts_comments": 50,
         "posts_publish_date": "2022-09-01",
-        "posts_status": "Publish",
+        "posts_articles": {
+            "0": {
+                "posts_id": 2,
+                "posts_title": "Article 2",
+                "posts_comments": 50,
+                "posts_publish_date": "2022-09-01"
+            },
+            "1": {
+                "posts_id": 2,
+                "posts_title": "Article 3",
+                "posts_comments": 50,
+                "posts_publish_date": "2022-09-01"
+            },
+            "2": {
+                "posts_id": 2,
+                "posts_title": "Article 4",
+                "posts_comments": 50,
+                "posts_publish_date": "2022-09-01"
+            },
+            "3": {
+                "posts_id": 2,
+                "posts_title": "Article 5",
+                "posts_comments": 50,
+                "posts_publish_date": "2022-09-01"
+            }
+        }
+    },
+    {
+        "posts_id": 2,
+        "posts_title": "Article 1",
+        "posts_comments": 50,
+        "posts_publish_date": "2022-09-01",
         "posts_articles": {
             "0": {
                 "posts_id": 2,
