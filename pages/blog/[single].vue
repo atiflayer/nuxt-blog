@@ -1,10 +1,12 @@
 <template>
-    <div class="w-full">
+    <div v-for="post in postArray" :key="post.posts_id" class="w-full">
         <div class="m-2 lg:my-4 lg:mx-2">
-            <h1 class="font-serif text-xl font-medium"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
+            <h1 class="font-serif text-xl font-medium"><span class="font-bold">Article 1.</span> {{ post.posts_title }}
+                <!-- Lorem ipsum, dolor
                 sit amet consectetur adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus
                 natus vel adipisci placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid.
-                Facere officiis molestias ad!</h1>
+                Facere officiis molestias ad! -->
+            </h1>
         </div>
         <!-- For Single Page -->
         <div class="flex flex-col py-2 text-sm border-t border-b border-sky-700">
@@ -13,7 +15,10 @@
                         Jane</span> for <span class="uppercase text-sky-500">MyCompany</span></p>
             </div>
             <div>
-                <p><span class="font-bold uppercase">Published</span>: 07:43 BST, 22 August 2022 | <span
+                <p><span class="font-bold uppercase">Published:     </span>
+                 <!-- 07:43 BST, 22 August 2022 |  -->
+                 {{ post.posts_publish_date }} | 
+                 <span
                         class="font-bold uppercase">Updated</span>: 11:44 BST,
                     12 July
                     2022</p>
@@ -268,3 +273,17 @@
         </div> -->
     </div>
 </template>
+
+<script setup>
+
+const route = useRoute();
+const url = route.params.single;
+const postArray = ref('')
+
+const post_single = await $fetch('http://127.0.0.1:8000/api/single_post/' + url)
+postArray.value = JSON.parse(post_single)
+
+console.log(postArray.value);
+
+
+</script>

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <NuxtLink v-for="post in postArray" :key="post.post_id" :to="`/blog/single`" class="hover:none">
+        <NuxtLink v-for="post in postArray" :key="post.posts_id" :to="`/blog/${post.posts_id}`" class="hover:none">
             <div class="w-full my-2">
                 <div class="m-2 lg:my-4 lg:mx-2">
                     <h1 class="font-serif text-xl font-medium"><span class="font-bold">Article 1.
