@@ -14,6 +14,7 @@
 
           <!-- Body -->
           <div class="flex-1 w-full h-full bg-white md:px-4">
+            <NavbarLogo />
             <Navbar />
             <AdspaceBody />
             <NuxtPage />

@@ -1,7 +1,7 @@
 <template>
     <div class="w-full my-2">
         <div class="m-2 lg:my-4 lg:mx-2">
-            <h1 class="text-lg font-medium font-serif"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
+            <h1 class="text-xl   font-medium font-serif"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
                 sit amet consectetur adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus
                 natus vel adipisci placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid.
                 Facere officiis molestias ad!</h1>

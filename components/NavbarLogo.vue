@@ -1,12 +1,12 @@
 <template>
-    <div class="sticky inset-0 top-0 z-50">
-        <header class="bg-success md:bg-gray-200">
-            <div class="flex items-center justify-between h-10 mx-auto sm:px-6 lg:px-8">
+    <div class="">
+        <nav class="bg-green-700 lg:bg-gray-200">
+            <div class="flex items-center justify-between lg:h-28    mx-auto sm:px-6 lg:px-8">
                 <div class="flex items-center">
 
                     <!-- Toggle -->
                     <button
-                        class="mr-2 navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
+                        class="lg:hidden block mr-2 navbar-toggler text-gray-200 border-0 hover:shadow-none hover:no-underline py-2 px-2.5 bg-transparent focus:outline-none focus:ring-0 focus:shadow-none focus:no-underline"
                         type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="w-6"
@@ -18,13 +18,20 @@
                     </button>
 
                     <!-- Logo -->
-                    <a href="" class="flex items-center text-center">
-                        <h1 class="inline-block w-32 h-10 text-3xl text-white rounded-lg ">MYLogo</h1>
-                    </a>
+                    <div class="flex flex-col justify-between gap-2">
+                        <a href="/" class="block items-start text-start">
+                            <h1
+                                class="inline-block w-32 h-10 text-3xl lg:text-5xl text-gray-100 lg:text-gray-900 rounded-lg">
+                                MYLogo</h1>
+                        </a>
+                        <div class="text-xs hidden lg:block my-2 items-start text-start">
+                            <p>Last Updated: 08.20. Bangladesh Time. 23 June</p>
+                        </div>
+                    </div>
                 </div>
 
                 <!-- Search -->
-                <div class="flex items-center justify-end flex-1">
+                <div class="flex items-center justify-end flex-1 lg:hidden">
                     <div class="flex items-center ml-8">
                         <div class="flex items-center">
                             <span class="sm:block">
@@ -39,7 +46,12 @@
                         </div>
                     </div>
                 </div>
+
+                <!-- AdSpaceLogo -->
+                <div class="px-32 py-6 bg-gray-100 items-start justify-start hidden lg:block">
+                    <p>adspace</p>
+                </div>
             </div>
-        </header>
+        </nav>
     </div>
 </template>
