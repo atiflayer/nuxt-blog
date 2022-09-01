@@ -15,13 +15,13 @@
                         Jane</span> for <span class="uppercase text-sky-500">MyCompany</span></p>
             </div>
             <div>
-                <p><span class="font-bold uppercase">Published:     </span>
-                 <!-- 07:43 BST, 22 August 2022 |  -->
-                 {{ post.posts_publish_date }} | 
-                 <span
-                        class="font-bold uppercase">Updated</span>: 11:44 BST,
+                <p><span class="font-bold uppercase">Published: </span>
+                    <!-- 07:43 BST, 22 August 2022 |  -->
+                    {{ post.posts_publish_date }} |
+                    <span class="font-bold uppercase">Updated</span>: 11:44 BST,
                     12 July
-                    2022</p>
+                    2022
+                </p>
             </div>
         </div>
 
@@ -100,7 +100,7 @@
             </div>
         </div>
 
-        <img src="https://api.lorem.space/image/album?w=600&h=300&hash=3u1cyqkv" alt=""
+        <img src="https://api.lorem.space/image/house?w=600&h=300&hash=3u1cyqkv" alt=""
             class="object-cover w-full h-64 my-2 lg:h-full">
 
         <div class="py-2 m-2 border-b border-gray-300">
