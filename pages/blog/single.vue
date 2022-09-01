@@ -1,7 +1,7 @@
 <template>
     <div class="w-full">
         <div class="m-2 lg:my-4 lg:mx-2">
-            <h1 class="text-xl font-medium font-serif"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
+            <h1 class="font-serif text-xl font-medium"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
                 sit amet consectetur adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus
                 natus vel adipisci placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid.
                 Facere officiis molestias ad!</h1>
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <div class="flex items-center justify-between space-x-4 lg:space-x-10 border-b border-slate-400 py-2">
+        <div class="flex items-center justify-between py-2 space-x-4 border-b lg:space-x-10 border-slate-400">
             <!-- <div class="flex mx-2 space-x-1 lg:w-0 lg:flex-1">
                 <span class="w-8 h-8 bg-sky-700"></span>
                 <span class="w-8 h-8 bg-blue-500"></span>
@@ -30,7 +30,7 @@
             </div> -->
 
             <!-- Social Links -->
-            <div class="flex items-center justify-between space-x-2 md:justify-start mx-2">
+            <div class="flex items-center justify-between mx-2 space-x-2 md:justify-start">
                 <a class="p-2 border rounded-full border-white/25 hover:opacity-75" href="" target="_blank"
                     rel="noreferrer">
                     <span class="sr-only"> Facebook </span>
@@ -75,12 +75,12 @@
                             clip-rule="evenodd" />
                     </svg>
                 </a>
-                <div class="flex-row pl-10 hidden lg:flex">
-                    <div class="flex flex-row gap-2 items-center mx-2 font-bold ">
+                <div class="flex-row hidden pl-10 lg:flex">
+                    <div class="flex flex-row items-center gap-2 mx-2 font-bold ">
                         <h1 class="text-xs">999</h1>
                         <h1 class="text-xs">Comments</h1>
                     </div>
-                    <div class="flex flex-row gap-2 items-center mx-2 font-bold ">
+                    <div class="flex flex-row items-center gap-2 mx-2 font-bold ">
                         <h1 class="text-xs">999</h1>
                         <h1 class="text-xs">Shares</h1>
                     </div>
@@ -89,7 +89,7 @@
 
             <!-- Data -->
             <div class="flex flex-col items-center mx-2 font-bold lg:block">
-                <button class="py-1 px-4 bg-slate-500 text-gray-100">
+                <button class="px-4 py-1 text-gray-100 bg-slate-500">
                     <p>Comment</p>
                 </button>
             </div>
@@ -98,7 +98,7 @@
         <img src="https://api.lorem.space/image/album?w=600&h=300&hash=3u1cyqkv" alt=""
             class="object-cover w-full h-64 my-2 lg:h-full">
 
-        <div class="m-2 border-b border-gray-300 py-2">
+        <div class="py-2 m-2 border-b border-gray-300">
             <h6 class="text-sm">Article 1. Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus natus vel adipisci
                 placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid. Facere officiis
@@ -106,7 +106,7 @@
         </div>
 
         <div class="m-2 lg:my-4 lg:mx-2">
-            <h1 class="text-lg font-medium font-serif"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
+            <h1 class="font-serif text-lg font-medium"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
                 sit amet consectetur adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus
                 natus vel adipisci placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid.
                 Facere officiis molestias ad! Lorem ipsum, dolor
@@ -133,7 +133,7 @@
         <img src="https://api.lorem.space/image/album?w=600&h=300&hash=3u1cyqkv" alt=""
             class="object-cover w-full h-64 my-2 lg:h-full">
 
-        <div class="m-2 border-b border-gray-300 py-2">
+        <div class="py-2 m-2 border-b border-gray-300">
             <h6 class="text-sm">Article 1. Lorem ipsum, dolor sit amet consectetur
                 adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus natus vel adipisci
                 placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid. Facere officiis
@@ -141,7 +141,7 @@
         </div>
 
         <div class="m-2 lg:my-4 lg:mx-2">
-            <h1 class="text-lg font-medium font-serif"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
+            <h1 class="font-serif text-lg font-medium"><span class="font-bold">Article 1.</span> Lorem ipsum, dolor
                 sit amet consectetur adipisicing elit. Reprehenderit voluptatibus consequatur quidem necessitatibus
                 natus vel adipisci placeat, culpa ullam quibusdam praesentium ad accusantium velit libero aliquid.
                 Facere officiis molestias ad! Lorem ipsum, dolor
@@ -165,7 +165,7 @@
                 Facere officiis molestias ad!</h1>
         </div>
 
-        <div class="flex items-center justify-between space-x-4 lg:space-x-10 border-b border-slate-400 py-2">
+        <div class="flex items-center justify-between py-2 space-x-4 border-b lg:space-x-10 border-slate-400">
             <!-- <div class="flex mx-2 space-x-1 lg:w-0 lg:flex-1">
                 <span class="w-8 h-8 bg-sky-700"></span>
                 <span class="w-8 h-8 bg-blue-500"></span>
@@ -175,7 +175,7 @@
             </div> -->
 
             <!-- Social Links -->
-            <div class="flex items-center justify-between space-x-2 md:justify-start mx-2">
+            <div class="flex items-center justify-between mx-2 space-x-2 md:justify-start">
                 <a class="p-2 border rounded-full border-white/25 hover:opacity-75" href="" target="_blank"
                     rel="noreferrer">
                     <span class="sr-only"> Facebook </span>
@@ -220,12 +220,12 @@
                             clip-rule="evenodd" />
                     </svg>
                 </a>
-                <div class="flex-row pl-10 hidden lg:flex">
-                    <div class="flex flex-row gap-2 items-center mx-2 font-bold ">
+                <div class="flex-row hidden pl-10 lg:flex">
+                    <div class="flex flex-row items-center gap-2 mx-2 font-bold ">
                         <h1 class="text-xs">999</h1>
                         <h1 class="text-xs">Comments</h1>
                     </div>
-                    <div class="flex flex-row gap-2 items-center mx-2 font-bold ">
+                    <div class="flex flex-row items-center gap-2 mx-2 font-bold ">
                         <h1 class="text-xs">999</h1>
                         <h1 class="text-xs">Shares</h1>
                     </div>
@@ -234,26 +234,26 @@
 
             <!-- Data -->
             <div class="flex flex-col items-center mx-2 font-bold lg:block">
-                <button class="py-1 px-4 bg-slate-500 text-gray-100">
+                <button class="px-4 py-1 text-gray-100 bg-slate-500">
                     <p>Comment</p>
                 </button>
             </div>
         </div>
 
-        <div class="w-full h-full p-72 my-2 bg-gray-200">
+        <div class="w-full h-full my-2 bg-gray-200 p-72">
             <p>Comment Section</p>
         </div>
 
-        <div class="w-full h-full px-8 py-8 my-2 bg-red-600 text-white">
+        <div class="w-full h-full px-8 py-8 my-2 text-white bg-red-600">
             <p>Related Articles</p>
         </div>
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-x-4 gap-y-6">
-            <div class="border-b border-gray-700 py-4">
+            <div class="py-4 border-b border-gray-700">
                 <Article />
                 <Article />
             </div>
-            <div class="border-b border-gray-700 py-4">
+            <div class="py-4 border-b border-gray-700">
                 <Article />
                 <Article />
             </div>
