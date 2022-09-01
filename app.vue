@@ -7,24 +7,25 @@
 
           <!-- Aside Left-->
           <div class="flex-initial hidden h-full px-2 py-2 bg-white md:px-2 w-96 2xl:block">
-            <Adspace />
-            <Adspace />
+            <AdspaceAside />
+            <AdspaceAside />
+            <AdspaceAside />
           </div>
 
           <!-- Body -->
           <div class="flex-1 w-full h-full bg-white md:px-4">
-            <Navbar class="lg:hidden" />
-            <NavbarCategory />
-            <!-- <NavbarSubCategory /> -->
-            <Adspace2 />
+            <Navbar />
+            <AdspaceBody />
             <NuxtPage />
           </div>
 
           <!-- Aside Right -->
           <div class="flex-initial hidden h-full px-2 py-2 bg-white md:px-2 w-96 2xl:block">
-            <Adspace />
-            <Adspace />
+            <AdspaceAside />
+            <AdspaceAside />
+            <AdspaceAside />
           </div>
+
         </div>
       </div>
     </div>
